@@ -113,7 +113,7 @@ layout: report
 				      <div class="col-md-4">
 					      	<ul class="nav nav-pills flex-column" id="myTab" role="tablist" aria-orientation="vertical">
 							<li class="nav-item">
-								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#evidence" role="tab" aria-controls="evidence" aria-selected="true">What is the evidence base for HbA1c target levels?</a>
+								<a class="nav-link active" id="home-tab" data-toggle="tab" href="#evidence" role="tab" aria-controls="evidence" aria-selected="true">What is the rationale for this standard?</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" id="therapies-tab" data-toggle="tab" href="#therapies" role="tab" aria-controls="therapies" aria-selected="false">What are the options if single drug therapy if the HbA1c level is 58mmol/mol or above?</a>
@@ -126,187 +126,51 @@ layout: report
 				      <div class="col">
 						<div class="tab-content">
 					  <div class="tab-pane active" id="evidence" role="tabpanel" aria-labelledby="evidence-tab">
-						<div class="col-lg-12">
-						    <h4></h4>
-						</div>
-						<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
-						  <ul>
-						    <li style="display:block; text-align:left"><a href="" class="circle circle-md bg-warning di" data-toggle="tooltip" title="" data-original-title="More">48+</a> mmol/mol HbA1c levels risk for <strong>microvascular complications</strong> increases significantly</li><br>
-						    <li style="display:block; text-align:left"><a href="" class="circle circle-md bg-danger di" data-toggle="tooltip" title="" data-original-title="More">53+</a> mmol/mol HbA1c levels risk for <strong>mortality and macrovascular complications</strong> increases significantly</li>
-						  </ul>
-						</div>
-						<a href="#section-iconbox-1" title="" data-toggle="tooltip" data-placement="top" target="_blank" class="btn btn-success m-l-20 hidden-xs hidden-sm waves-effect waves-light pull-right" data-original-title="Needs to link to patient list">View at risk patients</a>
+						<p>Obtaining the results of 3D imaging for chest trauma, haemorrhage and spinal injury as soon as possible allows for earlier diagnosis and decisions to be made on management, for example whether interventions such as surgery or interventional radiology are needed. Earlier treatment can reduce mortality and length of hospital stay and improve health-related quality of life.</p>
+						  <p>Trauma. NICE quality standard [QS166]. March 2018</p>
 					  </div>
 					  <div class="tab-pane" id="patients" role="tabpanel" aria-labelledby="patients-tab">
 					      <div class="col-sm-12">
 						  <h4></h4>
 					      </div>
-						<div class="table-responsive manage-table">
-						    <table class="table">
-							<thead>
-							    <tr>
-								<th>NAME</th>
-								<th>NHS Number</th>
-								<th>Last HbA1c level</th>
-								<th>Actions</th>
-							    </tr>
-							</thead>
-							<tbody>
-							    <tr class="advance-table-row">
-								<td>Andrew Simons</td>
-								<td>434 897 2136</td>
-								<td>69</td>
-								<td><button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#Modal1">
-								  Patient details
-								</button></td>
-							    </tr>
-							    <tr class="advance-table-row">
-								<td>Hanna Gover</td>
-								<td>434 765 3241</td>
-								<td>76</td>
-								<td><button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#Modal2">
-								  Patient details
-								</button></td>
-							    </tr>
-							    <tr class="advance-table-row">
-								<td>Joshi Nirav</td>
-								<td>434 456 1101</td>
-								<td>72</td>
-								<td><button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#Modal3">
-								  Patient details
-								</button></td>
-							    </tr>
-							    <tr class="advance-table-row">
-								<td>Joshi Sunil</td>
-								<td>434 456 1101</td>
-								<td>65</td>
-								<td><button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#Modal4">
-								  Patient details
-								</button></td>
-							    </tr>
-							</tbody>
-						    </table>
-
-						    <!-- Patient info modals -->
-						    <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						      <div class="modal-dialog" role="document">
-							<div class="modal-content">
-							  <div class="modal-header">
-							    <h5 class="modal-title" id="exampleModalLabel">Andrew Simons</h5>
-							    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							      <span aria-hidden="true">×</span>
-							    </button>
-							  </div>
-							  <div class="modal-body">
-							    <table class="table">
-								<thead>
-								    <tr>
-									<th>Therapy Pathway</th>
-									<th>Date therapy prescribed</th>
-									<th>Single Therapy over 6 months?</th>
-									<th>Latest HbA1c Level</th>
-									<th>Date of Last HbA1c test</th>
-								    </tr>
-								</thead>
-								<tbody>
-								    <tr class="advance-table-row">
-									<td>(Treatments being taken)</td>
-									<td>(Date stamp)</td>
-									<td>(Y/N)</td>
-									<td>(test result)</td>
-									<td>(Date stamp)</td>
-								    </tr>
-								     <tr class="advance-table-row">
-									<td>(Treatments being taken)</td>
-									<td>(Date stamp)</td>
-									<td>(Y/N)</td>
-									<td>(test result)</td>
-									<td>(Date stamp)</td>
-								    </tr>
-								     <tr class="advance-table-row">
-									<td>(Treatments being taken)</td>
-									<td>(Date stamp)</td>
-									<td>(Y/N)</td>
-									<td>(test result)</td>
-									<td>(Date stamp)</td>
-								    </tr>
-								     <tr class="advance-table-row">
-									<td>(Treatments being taken)</td>
-									<td>(Date stamp)</td>
-									<td>(Y/N)</td>
-									<td>(test result)</td>
-									<td>(Date stamp)</td>
-								    </tr>
-								</tbody>
-							    </table>
-							  </div>
-							  <div class="modal-footer">
-							    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-							  </div>
-							</div><!--end modal-content-->
-						      </div><!--end modal-dialog-->
-						    </div><!--end modal-->
-						    <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						      <div class="modal-dialog" role="document">
-							<div class="modal-content">
-							  <div class="modal-header">
-							    <h5 class="modal-title" id="exampleModalLabel">Hanna Gover</h5>
-							    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							      <span aria-hidden="true">×</span>
-							    </button>
-							  </div>
-							  <div class="modal-body">
-							    <img src="/images/patient-info.png" alt="patient info">
-							  </div>
-							  <div class="modal-footer">
-							    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							    <button type="button" class="btn btn-primary">Joshi Nirav</button>
-							  </div>
-							</div><!--end modal-content-->
-						      </div><!--end modal-dialog-->
-						    </div><!--end modal--->
-						    <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						      <div class="modal-dialog" role="document">
-							<div class="modal-content">
-							  <div class="modal-header">
-							    <h5 class="modal-title" id="exampleModalLabel">Joshi Sunil</h5>
-							    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							      <span aria-hidden="true">×</span>
-							    </button>
-							  </div>
-							  <div class="modal-body">
-							    <img src="/images/patient-info.png" alt="patient info">
-							  </div>
-							  <div class="modal-footer">
-							    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-							  </div>
-							 </div><!--end modal-content-->
-						      </div><!--end modal-dialog-->
-						    </div><!--end modal-->
-						    <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						      <div class="modal-dialog" role="document">
-							<div class="modal-content">
-							  <div class="modal-header">
-							    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-							    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							      <span aria-hidden="true">×</span>
-							    </button>
-							  </div>
-							  <div class="modal-body">
-							    <img src="/images/patient-info.png" alt="patient info">
-							  </div>
-							  <div class="modal-footer">
-							    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							  </div>
-							</div><!--end modal-content-->
-						      </div><!--end modal-dialog-->
-						    </div><!--end modal-->
-						</div><!--end table-responsive-->
+						  <p>Obtaining the results of 3D imaging for chest trauma, haemorrhage and spinal injury as soon as possible allows for earlier diagnosis and decisions to be made on management, for example whether interventions such as surgery or interventional radiology are needed. Earlier treatment can reduce mortality and length of hospital stay and improve health-related quality of life.
+Trauma. NICE quality standard [QS166]. March 2018
+</p>
+						  
+						    
 					  </div><!--end patient tab-pane-->
 					  <div class="tab-pane" id="therapies" role="tabpanel" aria-labelledby="therapies-tab">
-						<h4></h4>
+						<p>Consider immediate CT for adults (16 or over) with suspected chest trauma without severe respiratory compromise who are responding to resuscitation or whose haemodynamic status is normal.</p>
+<p>Consider immediate CT for patients with suspected haemorrhage if they are responding to resuscitation or if their haemodynamic status is normal.</p>
+<p>Use clinical findings and the scanogram to direct CT of the limbs in adults (16 or over) with limb trauma.</p>
+<p>For adults who have sustained a head injury and have any of the following risk factors, perform a CT head scan within 1 hour of the risk factor being identified:</p>
+<ul>
+	<li>GCS less than 13 on initial assessment in the emergency department.</li>
+<li>GCS less than 15 at 2 hours after the injury on assessment in the emergency department.</li>
+<li>Suspected open or depressed skull fracture.</li>
+<li>Any sign of basal skull fracture (haemotympanum, 'panda' eyes, cerebrospinal fluid leakage from the ear or nose, Battle's sign).</li>
+<li>Post-traumatic seizure.</li>
+<li>Focal neurological deficit.</li>
+<li>More than 1 episode of vomiting.  For adults with any of the following risk factors who have experienced some loss of consciousness or amnesia since the injury, perform a CT head scan within 8 hours of the head injury:</li>
+<li>Age 65 years or older.</li>
+<li>Any history of bleeding or clotting disorders.</li>
+<li>Dangerous mechanism of injury (a pedestrian or cyclist struck by a motor vehicle, an occupant ejected from a motor vehicle or a fall from a height of greater than 1 metre or 5 stairs).</li>
+<li>More than 30 minutes' retrograde amnesia of events immediately before the head injury.</li>
+</ul?
+	<p>For children who have sustained a head injury and have any of the following risk factors, perform a CT head scan within 1 hour of the risk factor being identified:</p>
+						  <ul>
+						  <li>Suspicion of non-accidental injury</li>
+							  <li>
+Post-traumatic seizure but no history of epilepsy.</li>
+							  <li>On initial emergency department assessment, GCS less than 14, or for children under 1-year GCS (paediatric) less than 15.</li>
+							  <li><At 2 hours after the injury, GCS less than 15./li>
+							  <li><Suspected open or depressed skull fracture or tense fontanelle./li>
+							  <li>Any sign of basal skull fracture (haemotympanum, 'panda' eyes, cerebrospinal fluid leakage from the ear or nose, Battle's sign).</li>
+							  <li>Focal neurological deficit.</li>
+								  <li>For children under 1 year, presence of bruise, swelling or laceration of more than 5 cm on the head.</li>
+								  </ul>
+						  
+						  
 						      <div class="table-responsive manage-table">
 							  <table class="table">
 							      <thead>
